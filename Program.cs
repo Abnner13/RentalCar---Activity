@@ -19,14 +19,14 @@ namespace InterfacePRO
             DateTime finish = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture);
 
             Console.Write("Enter price per hour: ");
-            double pph = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
+            double priceHour = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
             Console.Write("Enter price per Day: ");
-            double ppD = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
+            double priceDay = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
             
             
             CarRental carRental = new CarRental(start, finish, new Vehicle(model));
             
-            RentalServices rentalServices = new RentalServices(pph, ppD);
+            RentalServices rentalServices = new RentalServices(priceHour, priceDay, new BrazilTaxServices());
             
             rentalServices.ProcessInvoice(carRental);
             

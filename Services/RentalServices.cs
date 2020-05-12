@@ -9,12 +9,13 @@ namespace InterfacePRO.Services
         public double PricePerHour { get; private set; }
         public double PricePerDay { get; private set; }
 
-        private BrazilTaxServices _brazilTax = new BrazilTaxServices();
+        private ITaxService _taxService;
 
-        public RentalServices(double priceperhour, double pricepreday)
+        public RentalServices(double priceperhour, double pricepreday, ITaxService taxService)
         {
             PricePerHour = priceperhour;
             PricePerDay  = pricepreday;
+            _taxService = taxService;
         }
 
         public void ProcessInvoice(CarRental carRental){
@@ -29,7 +30,7 @@ namespace InterfacePRO.Services
                 basicPayment = Math.Ceiling(duration.TotalDays) * PricePerDay;
             }
 
-            double tax = _brazilTax.Tax(basicPayment);
+            double tax = _taxService.Tax(basicPayment);
 
             carRental.Invoice = new Invoice(basicPayment, tax);
              
