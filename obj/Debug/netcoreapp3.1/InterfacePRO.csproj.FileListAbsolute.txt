@@ -1,0 +1,13 @@
+/home/invent/Área de Trabalho/InterfacePRO/bin/Debug/netcoreapp3.1/InterfacePRO
+/home/invent/Área de Trabalho/InterfacePRO/bin/Debug/netcoreapp3.1/InterfacePRO.deps.json
+/home/invent/Área de Trabalho/InterfacePRO/bin/Debug/netcoreapp3.1/InterfacePRO.runtimeconfig.json
+/home/invent/Área de Trabalho/InterfacePRO/bin/Debug/netcoreapp3.1/InterfacePRO.runtimeconfig.dev.json
+/home/invent/Área de Trabalho/InterfacePRO/bin/Debug/netcoreapp3.1/InterfacePRO.dll
+/home/invent/Área de Trabalho/InterfacePRO/bin/Debug/netcoreapp3.1/InterfacePRO.pdb
+/home/invent/Área de Trabalho/InterfacePRO/obj/Debug/netcoreapp3.1/InterfacePRO.csprojAssemblyReference.cache
+/home/invent/Área de Trabalho/InterfacePRO/obj/Debug/netcoreapp3.1/InterfacePRO.csproj.CoreCompileInputs.cache
+/home/invent/Área de Trabalho/InterfacePRO/obj/Debug/netcoreapp3.1/InterfacePRO.AssemblyInfoInputs.cache
+/home/invent/Área de Trabalho/InterfacePRO/obj/Debug/netcoreapp3.1/InterfacePRO.AssemblyInfo.cs
+/home/invent/Área de Trabalho/InterfacePRO/obj/Debug/netcoreapp3.1/InterfacePRO.dll
+/home/invent/Área de Trabalho/InterfacePRO/obj/Debug/netcoreapp3.1/InterfacePRO.pdb
+/home/invent/Área de Trabalho/InterfacePRO/obj/Debug/netcoreapp3.1/InterfacePRO.genruntimeconfig.cache
